@@ -25,6 +25,8 @@ public class BrushView extends android.support.v7.widget.AppCompatImageView {
     public float smallRadius;
     public final float target_offset;
     public boolean isTouch;
+    //you can change the value to change the size of mirror  
+    private double largeRadious = 100;
 
     public BrushView(Context context) {
         super(context);
